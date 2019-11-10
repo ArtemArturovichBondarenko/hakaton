@@ -1,0 +1,80 @@
+.section-watch__title {
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 26px;
+}
+
+.section-watch__text {
+  color: $white-color;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.section-watch__video {
+  margin-bottom: 60px;
+}
+
+.section-watch {
+  background-color: $bg-color-watch;
+  padding-bottom: 60px;
+}
+
+.wrapper-link__link {
+  width: 70px;
+  height: 70px;
+  background-color: #0098cd;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 18px;
+  margin-top: 28px;
+  margin-bottom: 60px;
+}
+
+.wrapper-link--android {
+  background-image: url(../../images/icons/icon-android.png);
+}
+
+.wrapper-link--apple {
+  background-image: url(../../images/icons/icon-apple.png);
+}
+
+.wrapper-link {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .section-watch__title {
+    font-size: 28px;
+    padding-top: 108px;
+    padding-bottom: 30px;
+  }
+  .section-watch {
+    padding-bottom: 108px;
+  }
+}
+@media (min-width: 1200px) {
+  .wrapper1200 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrapper1200__text {
+    width: 540px;
+  }
+  .wrapper1200__img {
+    width: 500px;
+  }
+  .section-watch__title {
+    text-align: left;
+  }
+  .section-watch__text {
+    text-align: left;
+  }
+  .wrapper-link {
+    justify-content: flex-start;
+  }
+}
