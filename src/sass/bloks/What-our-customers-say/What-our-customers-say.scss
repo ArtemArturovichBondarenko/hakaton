@@ -1,27 +1,18 @@
 .viewport {
   text-align: center;
-<<<<<<< HEAD
   margin-bottom: 108px;
-=======
-  //   position: relative;
->>>>>>> init header
 }
 
 .customers {
   position: relative;
   display: inline-block;
-<<<<<<< HEAD
-  width: 172px;
-=======
   width: 160px;
->>>>>>> init header
   font-size: 18px;
   font-family: $accent-font;
   color: $main-color;
   font-weight: bold;
   line-height: 1.556;
   text-align: center;
-<<<<<<< HEAD
 
 
   &::before {
@@ -43,29 +34,6 @@
     width: 60px;
     border: 1px solid rgb(186, 189, 193);
   }
-=======
-  margin-bottom: 48px;
-}
-
-.customers::before {
-  display: block;
-  position: absolute;
-  top: 15px;
-  right: -50px;
-  content: '';
-  width: 60px;
-  border: 1px solid rgb(186, 189, 193);
-}
-
-.customers::after {
-  display: block;
-  position: absolute;
-  top: 15px;
-  left: -50px;
-  content: '';
-  width: 60px;
-  border: 1px solid rgb(186, 189, 193);
->>>>>>> init header
 }
 
 .customers__img {
@@ -139,17 +107,10 @@
   display: inline-block;
   margin-right: 8px;
   outline: none;
-<<<<<<< HEAD
 
   &:checked {
     background-color: #1ab798;
   }
-=======
-}
-
-.customers__radiobatton:checked {
-  background-color: #1ab798;
->>>>>>> init header
 }
 
 @media (min-width: 768px) {
@@ -168,7 +129,6 @@
     top: 50%;
   }
 }
-<<<<<<< HEAD
 
 @media (min-width: 1200px) {
   .customers__viewport {
@@ -176,5 +136,3 @@
     width: 930px;
   }
 }
-=======
->>>>>>> init header
