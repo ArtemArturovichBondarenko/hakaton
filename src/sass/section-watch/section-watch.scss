@@ -49,34 +49,42 @@
   display: flex;
   justify-content: center;
 }
+
 @media (min-width: 768px) {
   .section-watch__title {
     font-size: 28px;
     padding-top: 108px;
     padding-bottom: 30px;
   }
+
   .section-watch {
     padding-bottom: 108px;
   }
 }
+
 @media (min-width: 1200px) {
   .wrapper1200 {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
   .wrapper1200__text {
     width: 540px;
   }
+
   .wrapper1200__img {
     width: 500px;
   }
+
   .section-watch__title {
     text-align: left;
   }
+
   .section-watch__text {
     text-align: left;
   }
+
   .wrapper-link {
     justify-content: flex-start;
   }
