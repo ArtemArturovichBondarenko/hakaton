@@ -1,8 +1,11 @@
 /*
  * Все паршалы импортировать в этот файл
  */
-
+@import 'helpers/variables.scss';
 @import 'normalize.scss';
 @import 'base.scss';
 
+// Components
+@import 'section-watch/section-watch.scss';
+@import 'section-team/section-team.scss';
 
