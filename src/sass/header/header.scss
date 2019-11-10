@@ -215,6 +215,7 @@ header {
 
 @media (min-width: 768px) {
   header {
+    max-width: 768px;
     position: relative;
     height: 758px;
   }
@@ -426,7 +427,7 @@ header {
   /*FEATURES*/
 
   .key-features__item {
-    width: 352px;
+    width: 362px;
   }
 
   .features__title {
