@@ -1,8 +1,7 @@
 header {
-  max-width: 320px;
   margin: 0 auto;
   color: #ffffff;
-  background-image: url(../img/big-back.jpg);
+  background-image: url(../images/big-back.jpg);
   background-repeat: no-repeat;
   margin-bottom: 60px;
 }
@@ -180,27 +179,27 @@ header {
 }
 
 .key-features__item--board .key-features__inner::before {
-  background-image: url(../img/icons/board.png);
+  background-image: url(../images/icons/board.png);
 }
 
 .key-features__item--device-hub .key-features__inner::before {
-  background-image: url(../img/icons/icon-hub.svg);
+  background-image: url(../images/icons/icon-hub.svg);
 }
 
 .key-features__item--thumb-up .key-features__inner::before {
-  background-image: url(../img/icons/icon-thumb.svg);
+  background-image: url(../images/icons/icon-thumb.svg);
 }
 
 .key-features__item--star .key-features__inner::before {
-  background-image: url(../img/icons/icon-star.svg);
+  background-image: url(../images/icons/icon-star.svg);
 }
 
 .key-features__item--notification .key-features__inner::before {
-  background-image: url(../img/icons/icon-notification.svg);
+  background-image: url(../images/icons/icon-notification.svg);
 }
 
 .key-features__item--share .key-features__inner::before {
-  background-image: url(../img/icons/icon-share.svg);
+  background-image: url(../images/icons/icon-share.svg);
 }
 
 .key-features__title {
@@ -218,7 +217,6 @@ header {
   header {
     position: relative;
     height: 758px;
-    max-width: 768px;
   }
 
   .navicon {
@@ -369,7 +367,6 @@ header {
 
 @media (min-width: 1200px) {
   header {
-    max-width: 1200px;
     margin-bottom: 121px;
   }
 
